@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#120D1E"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="686dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="25dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/Field_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#fff"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textColorLink="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/Field_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#fff"
+        android:textColorLink="#fff"
+        android:inputType="textPassword"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/Btn_signin"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="#000"
+        android:textColorLink="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/Btn_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Não possui uma conta? Crie uma!"
+        android:textColor="#000" />
+
+</LinearLayout>

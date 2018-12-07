@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#120D1E"
+    android:gravity="center"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:autoText="false"
+        android:text="Cadastro"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Field_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#fff"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textColorLink="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/Field_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#fff"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textColorLink="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/Field_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#fff"
+        android:textColorLink="#fff"
+        android:inputType="textPassword"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/Btn_signup"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#000"
+        android:textColorLink="@color/colorAccent" />
+
+
+</LinearLayout>
